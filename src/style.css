@@ -1,0 +1,86 @@
+h1{
+    /* margin-top: 0px; */
+    color:white;
+    font-family:cursive;
+}
+body{
+    text-align: center;
+    background-image: linear-gradient(lightblue,pink,wheat);
+    min-height: 100vh;
+}
+.txt{
+    font-size: larger;
+    font-weight: 600;
+    margin-right: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+form{
+    line-height: 82px;
+}
+.name{
+    padding:12px 0px;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 25px;
+    width:220px;
+    margin-left:40px;
+
+    /* border: 1px solid whitesmoke; */
+    border: 2px solid gainsboro;
+    font-size: 16px;
+}    
+::placeholder{
+    color:antiquewhite;
+}
+.dept{
+    padding:12px 0px;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 25px;
+    width:220px;
+    margin-left:10px;
+    border: 2px solid gainsboro;
+    font-size: 18px;
+}
+.rate{
+    padding:12px 0px;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 25px;
+    width:220px;
+    margin-left:40px;
+
+    border: 2px solid gainsboro;
+    font-size: 18px;
+}
+button{
+    margin:40px 10px;
+    padding: 12px;
+    width:110px;
+    border: none;
+    border-radius: 50px;
+    background-color:thistle;
+    color:snow;
+    font-size: large;
+    cursor: pointer;
+}
+button:hover{
+    border-top:2px solid thistle ;
+    border-bottom:2px solid thistle ;
+    letter-spacing: 3px;
+    /* background-color: transparent; */
+    box-shadow: 1px 1px 2px whitesmoke;
+}
+.details{
+    background-color: violet;
+    width:fit-content;
+    padding: 20px;
+    border-radius: 20px;
+    margin:25px;
+    margin-bottom: 10px;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
